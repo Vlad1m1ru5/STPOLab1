@@ -10,3 +10,15 @@ D:\Projects__ALL\Projects__Tests\WindowsFormsApp\WindowsFormsApp\obj\Debug\Windo
 D:\Projects__ALL\Projects__Tests\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.formMain.resources
 D:\Projects__ALL\Projects__Tests\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.FormAlert.resources
 D:\Projects__ALL\Projects__Tests\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.FormAnswer.resources
+D:\Projects__ALL\Projects__Tests\newBranch\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
+D:\Projects__ALL\Projects__Tests\newBranch\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
+D:\Projects__ALL\Projects__Tests\newBranch\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
+D:\Projects__ALL\Projects__Tests\newBranch\WindowsFormsApp\obj\Debug\WindowsFormsApp.formMain.resources
+D:\Projects__ALL\Projects__Tests\newBranch\WindowsFormsApp\obj\Debug\WindowsFormsApp.FormAlert.resources
+D:\Projects__ALL\Projects__Tests\newBranch\WindowsFormsApp\obj\Debug\WindowsFormsApp.FormAnswer.resources
+D:\Projects__ALL\Projects__Tests\newBranch\WindowsFormsApp\obj\Debug\WindowsFormsApp.Properties.Resources.resources
+D:\Projects__ALL\Projects__Tests\newBranch\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.cache
+D:\Projects__ALL\Projects__Tests\newBranch\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.CoreCompileInputs.cache
+D:\Projects__ALL\Projects__Tests\newBranch\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
+D:\Projects__ALL\Projects__Tests\newBranch\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb
+D:\Projects__ALL\Projects__Tests\newBranch\WindowsFormsApp\obj\Debug\WindowsFormsApp.csprojAssemblyReference.cache

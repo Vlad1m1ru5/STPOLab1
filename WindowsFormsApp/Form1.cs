@@ -32,7 +32,7 @@ namespace WindowsFormsApp
         //
         // Сортировка Шелла
         //
-        private void ShellSort(int[] array)
+        public void ShellSort(int[] array)
         {
             int n = array.Length;
             int gap = n / 2;
@@ -63,7 +63,7 @@ namespace WindowsFormsApp
         //
         // Интеллектуальный поиск опорного элемента
         // (можно заменить на средний жлемент подмассива)
-        int partition(int[] array, int start, int end)
+        public int partition(int[] array, int start, int end)
         {
             int temp;
             int marker = start;
@@ -212,7 +212,7 @@ namespace WindowsFormsApp
         private bool getFormFilled()
         {
             // Проверка поля выбора алгоритма сортировки
-            if (!(checkBoxSortShell.Checked || checkBoxSortQSort.Checked))
+            if (checkBoxSortShell.Checked && checkBoxSortQSort.Checked)
             {
                 return false;
             }
