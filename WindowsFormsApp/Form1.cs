@@ -87,7 +87,7 @@ namespace WindowsFormsApp
         }
 
         // Рекурсивная реализация быстрой сортировки
-        void QuickSort(int[] array, int start, int end)
+        public void QuickSort(int[] array, int start, int end)
         {
             if (start >= end)
             {
@@ -115,7 +115,6 @@ namespace WindowsFormsApp
             }
         }
 
-        
         //
         // Проверка наличия в файле
         //
@@ -163,7 +162,7 @@ namespace WindowsFormsApp
                 // Преведение массива к списку не работает 
                 listNum = new List<int>();
                 foreach(int varb in arrNum)
-                {;
+                {
                     listNum.Add(varb);
                 }
 

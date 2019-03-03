@@ -17,11 +17,6 @@ namespace WindowsFormsApp
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         // Закрыть окно
         private void button1_Click(object sender, EventArgs e)
         {
