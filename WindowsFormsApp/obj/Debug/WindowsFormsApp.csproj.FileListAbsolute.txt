@@ -22,3 +22,15 @@ D:\Projects__ALL\Projects__Tests\newBranch\WindowsFormsApp\obj\Debug\WindowsForm
 D:\Projects__ALL\Projects__Tests\newBranch\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
 D:\Projects__ALL\Projects__Tests\newBranch\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb
 D:\Projects__ALL\Projects__Tests\newBranch\WindowsFormsApp\obj\Debug\WindowsFormsApp.csprojAssemblyReference.cache
+D:\Univer\projects\stpo\lab1\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
+D:\Univer\projects\stpo\lab1\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
+D:\Univer\projects\stpo\lab1\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
+D:\Univer\projects\stpo\lab1\WindowsFormsApp\obj\Debug\WindowsFormsApp.csprojAssemblyReference.cache
+D:\Univer\projects\stpo\lab1\WindowsFormsApp\obj\Debug\WindowsFormsApp.formMain.resources
+D:\Univer\projects\stpo\lab1\WindowsFormsApp\obj\Debug\WindowsFormsApp.FormAlert.resources
+D:\Univer\projects\stpo\lab1\WindowsFormsApp\obj\Debug\WindowsFormsApp.FormAnswer.resources
+D:\Univer\projects\stpo\lab1\WindowsFormsApp\obj\Debug\WindowsFormsApp.Properties.Resources.resources
+D:\Univer\projects\stpo\lab1\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.cache
+D:\Univer\projects\stpo\lab1\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.CoreCompileInputs.cache
+D:\Univer\projects\stpo\lab1\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
+D:\Univer\projects\stpo\lab1\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb
