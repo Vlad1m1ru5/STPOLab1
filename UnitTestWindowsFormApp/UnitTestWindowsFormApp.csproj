@@ -51,7 +51,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnitTest_Form2.cs" />
     <Compile Include="UnitTest_Form1.cs" />
+    <Compile Include="UnitTest_Form3.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

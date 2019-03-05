@@ -24,9 +24,9 @@ namespace WindowsFormsApp
 
         }
 
-        // БЛОК ИНИУИАЛИЗАЦИИ ПЕРЕМЕННЫХ
+        // БЛОК ИНИЦИАЛИЗАЦИИ ПЕРЕМЕННЫХ
         // Число для поиска
-        private int pivot = 0;
+        public int pivot = 0;
 
         // БЛОК МЕТОДОВ СОРТИРОКИ
         //
@@ -103,7 +103,7 @@ namespace WindowsFormsApp
         //
         // Открыть поиск файла
         //
-        private void button1_Click_1(object sender, EventArgs e)
+        public void button1_Click_1(object sender, EventArgs e)
         {
             openFileDialogFile.InitialDirectory = "c:\\";
             openFileDialogFile.Filter = "Текстовые файлы|*.txt";
@@ -118,7 +118,7 @@ namespace WindowsFormsApp
         //
         // Проверка наличия в файле
         //
-        private bool isInSeq(int x)
+        public bool isInSeq(int x)
         {
             // Проверка на успешную конвертацию строк в числа
             try
@@ -184,12 +184,12 @@ namespace WindowsFormsApp
 
             // По умолчанию
             return true;
-        }
+        } // Конец isInSeq()
 
         //
         // Поиск числа в файле
         //
-        private void buttonExe_Click(object sender, EventArgs e)
+        public void buttonExe_Click(object sender, EventArgs e)
         {
             // Проверка входных данных пройдена
             if (getFormFilled())
@@ -203,12 +203,12 @@ namespace WindowsFormsApp
                 FormAlert formAlert = new FormAlert();
                 formAlert.ShowDialog();
             }
-        }
+        } // Конец buttonExe_Click()
 
         //
         // Проверить корректность заполнения полей
         //
-        private bool getFormFilled()
+        public bool getFormFilled()
         {
             // Проверка поля выбора алгоритма сортировки
             if (checkBoxSortShell.Checked && checkBoxSortQSort.Checked)
@@ -230,9 +230,13 @@ namespace WindowsFormsApp
                     return false;
                 }
             }
+            else
+            {
+                return false;
+            }
 
             return true;
-        }// конец getFormFilled
+        }// Конец getFormFilled()
 
-    }// КОНЕЦ ФОРМЫ
+    }// КОНЕЦ formMain
 }

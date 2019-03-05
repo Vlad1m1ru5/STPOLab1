@@ -6,7 +6,12 @@ namespace Tests
 {
     public class Tests
     {
-        [SetUp]
+        //formMain formMain1 = new formMain();
+        class testformMain : formMain
+        {
+        }
+
+            [SetUp]
         public void Setup()
         {
         }

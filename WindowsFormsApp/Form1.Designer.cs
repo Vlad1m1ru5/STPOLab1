@@ -26,7 +26,7 @@
         /// Требуемый метод для поддержки конструктора — не изменяйте 
         /// содержимое этого метода с помощью редактора кода.
         /// </summary>
-        private void InitializeComponent()
+        public void InitializeComponent()
         {
             this.labelProjName = new System.Windows.Forms.Label();
             this.labelFail = new System.Windows.Forms.Label();
@@ -217,20 +217,20 @@
 
         #endregion
 
-        private System.Windows.Forms.Label labelProjName;
-        private System.Windows.Forms.Label labelFail;
-        private System.Windows.Forms.TextBox textBoxFail;
-        private System.Windows.Forms.GroupBox groupBoxFail;
-        private System.Windows.Forms.GroupBox groupBoxSort;
-        private System.Windows.Forms.GroupBox groupBoxArg;
-        private System.Windows.Forms.Label labelArg;
-        private System.Windows.Forms.TextBox textBoxArg;
-        private System.Windows.Forms.CheckBox checkBoxSortShell;
-        private System.Windows.Forms.Label labelSort;
-        private System.Windows.Forms.CheckBox checkBoxSortQSort;
-        private System.Windows.Forms.Button buttonFile;
-        private System.Windows.Forms.Button buttonExe;
-        private System.Windows.Forms.OpenFileDialog openFileDialogFile;
+        public System.Windows.Forms.Label labelProjName;
+        public System.Windows.Forms.Label labelFail;
+        public System.Windows.Forms.TextBox textBoxFail;
+        public System.Windows.Forms.GroupBox groupBoxFail;
+        public System.Windows.Forms.GroupBox groupBoxSort;
+        public System.Windows.Forms.GroupBox groupBoxArg;
+        public System.Windows.Forms.Label labelArg;
+        public System.Windows.Forms.TextBox textBoxArg;
+        public System.Windows.Forms.CheckBox checkBoxSortShell;
+        public System.Windows.Forms.Label labelSort;
+        public System.Windows.Forms.CheckBox checkBoxSortQSort;
+        public System.Windows.Forms.Button buttonFile;
+        public System.Windows.Forms.Button buttonExe;
+        public System.Windows.Forms.OpenFileDialog openFileDialogFile;
     }
 }
 

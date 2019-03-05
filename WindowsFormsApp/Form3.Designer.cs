@@ -26,7 +26,7 @@
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent()
+        public void InitializeComponent()
         {
             this.labelAnswer = new System.Windows.Forms.Label();
             this.buttonAnswer = new System.Windows.Forms.Button();
@@ -41,7 +41,6 @@
             this.labelAnswer.Size = new System.Drawing.Size(240, 35);
             this.labelAnswer.TabIndex = 0;
             this.labelAnswer.Text = "Число не найдено";
-            this.labelAnswer.Click += new System.EventHandler(this.label1_Click);
             // 
             // buttonAnswer
             // 
@@ -72,7 +71,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label labelAnswer;
-        private System.Windows.Forms.Button buttonAnswer;
+        public System.Windows.Forms.Label labelAnswer;
+        public System.Windows.Forms.Button buttonAnswer;
     }
 }

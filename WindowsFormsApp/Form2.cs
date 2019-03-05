@@ -12,14 +12,17 @@ namespace WindowsFormsApp
 {
     public partial class FormAlert : Form
     {
+        public bool isClose = false;
+
         public FormAlert()
         {
             InitializeComponent();
         }
 
         // Закрыть окно
-        private void button1_Click(object sender, EventArgs e)
+        public void button1_Click(object sender, EventArgs e)
         {
+            isClose = true;
             this.Close();
         }
     }

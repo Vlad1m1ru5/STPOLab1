@@ -1646,6 +1646,18 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
+      "UnitTestWindowsFormApp/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "WindowsFormsApp": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UnitTestWindowsFormApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnitTestWindowsFormApp.dll": {}
+        }
+      },
       "WindowsFormsApp/1.0.0": {
         "type": "project",
         "compile": {
@@ -5754,6 +5766,11 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
+    "UnitTestWindowsFormApp/1.0.0": {
+      "type": "project",
+      "path": "../UnitTestWindowsFormApp/UnitTestWindowsFormApp.csproj",
+      "msbuildProject": "../UnitTestWindowsFormApp/UnitTestWindowsFormApp.csproj"
+    },
     "WindowsFormsApp/1.0.0": {
       "type": "project",
       "path": "../WindowsFormsApp/WindowsFormsApp.csproj",
@@ -5765,6 +5782,7 @@
       "Microsoft.NET.Test.Sdk >= 15.8.0",
       "Microsoft.NETCore.App >= 2.1.0",
       "NUnit3TestAdapter >= 3.10.0",
+      "UnitTestWindowsFormApp >= 1.0.0",
       "WindowsFormsApp >= 1.0.0",
       "nunit >= 3.10.1"
     ]
@@ -5799,6 +5817,9 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
+            "D:\\Univer\\projects\\stpo\\lab1\\UnitTestWindowsFormApp\\UnitTestWindowsFormApp.csproj": {
+              "projectPath": "D:\\Univer\\projects\\stpo\\lab1\\UnitTestWindowsFormApp\\UnitTestWindowsFormApp.csproj"
+            },
             "D:\\Univer\\projects\\stpo\\lab1\\WindowsFormsApp\\WindowsFormsApp.csproj": {
               "projectPath": "D:\\Univer\\projects\\stpo\\lab1\\WindowsFormsApp\\WindowsFormsApp.csproj"
             }

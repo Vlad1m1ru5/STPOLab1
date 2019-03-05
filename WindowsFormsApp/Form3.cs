@@ -12,19 +12,17 @@ namespace WindowsFormsApp
 {
     public partial class FormAnswer : Form
     {
+        public bool isClose = false;
+
         public FormAnswer()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         // Закрыть окно
-        private void button1_Click(object sender, EventArgs e)
+        public void button1_Click(object sender, EventArgs e)
         {
+            isClose = true;
             this.Close();
         }
 
