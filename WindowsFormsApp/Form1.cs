@@ -180,10 +180,10 @@ namespace WindowsFormsApp
             {
                 FormAlert formAlert = new FormAlert();
                 formAlert.ShowDialog();
+
+                return false;
             }
 
-            // По умолчанию
-            return true;
         } // Конец isInSeq()
 
         //
@@ -211,7 +211,7 @@ namespace WindowsFormsApp
         public bool getFormFilled()
         {
             // Проверка поля выбора алгоритма сортировки
-            if (checkBoxSortShell.Checked && checkBoxSortQSort.Checked)
+            if (checkBoxSortShell.Checked && checkBoxSortQSort.Checked || !(checkBoxSortShell.Checked) && !(checkBoxSortQSort.Checked))
             {
                 return false;
             }
