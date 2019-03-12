@@ -135,6 +135,7 @@ namespace IntegrationTestProject1
             formMain1.checkBoxSortShell.Checked = true;
 
             formMain1.buttonExe_Click(formMain1.buttonExe, EventArgs.Empty);
+            
 
             formMain1.Dispose();
         } // Конец TestMethod_buttonExe_Click()
