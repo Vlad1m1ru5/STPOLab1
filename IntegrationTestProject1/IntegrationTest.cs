@@ -121,13 +121,12 @@ namespace IntegrationTestProject1
         public void TestMethod_buttonExe_Click()
         {
             formMain formMain1 = new formMain();
-            bool passed = true;
 
             /*
              * Тест 1 
             */
             formMain1.textBoxFail.Text = "TheFail.txt";
-            System.IO.File.WriteAllText(formMain1.textBoxFail.Text, "102 101 100");
+            System.IO.File.WriteAllText(formMain1.textBoxFail.Text, "101 102 100");
 
             formMain1.textBoxArg.Text = "100";
 
@@ -136,6 +135,37 @@ namespace IntegrationTestProject1
 
             formMain1.buttonExe_Click(formMain1.buttonExe, EventArgs.Empty);
             
+            Assert.AreEqual("Число найдено", formMain1.finale);
+
+            /*
+             * Тест 2
+            */
+            formMain1.textBoxFail.Text = "TheFail.txt";
+            System.IO.File.WriteAllText(formMain1.textBoxFail.Text, "101 102 100");
+
+            formMain1.textBoxArg.Text = "-100";
+
+            formMain1.checkBoxSortQSort.Checked = false;
+            formMain1.checkBoxSortShell.Checked = true;
+
+            formMain1.buttonExe_Click(formMain1.buttonExe, EventArgs.Empty);
+
+            Assert.AreEqual("Число не найдено", formMain1.finale);
+
+            /*
+             * Тест 3
+            */
+            formMain1.textBoxFail.Text = "TheFail.txt";
+            System.IO.File.WriteAllText(formMain1.textBoxFail.Text, "101 102 100");
+
+            formMain1.textBoxArg.Text = "aaAAaa";
+
+            formMain1.checkBoxSortQSort.Checked = false;
+            formMain1.checkBoxSortShell.Checked = true;
+
+            formMain1.buttonExe_Click(formMain1.buttonExe, EventArgs.Empty);
+
+            Assert.AreEqual("Внимание! Проверьте корректность заполнения полей.", formMain1.finale);
 
             formMain1.Dispose();
         } // Конец TestMethod_buttonExe_Click()

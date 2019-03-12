@@ -27,6 +27,7 @@ namespace WindowsFormsApp
         // БЛОК ИНИЦИАЛИЗАЦИИ ПЕРЕМЕННЫХ
         // Число для поиска
         public int pivot = 0;
+        public String finale;
 
         // БЛОК МЕТОДОВ СОРТИРОКИ
         //
@@ -197,11 +198,15 @@ namespace WindowsFormsApp
                 FormAnswer formAnsewr = new FormAnswer();
                 formAnsewr.setLabelAnswer(isInSeq(pivot));
                 formAnsewr.ShowDialog();
+
+                finale = formAnsewr.labelAnswer.Text;
             }
             else
             {
                 FormAlert formAlert = new FormAlert();
                 formAlert.ShowDialog();
+
+                finale = formAlert.label1.Text;
             }
         } // Конец buttonExe_Click()
 
