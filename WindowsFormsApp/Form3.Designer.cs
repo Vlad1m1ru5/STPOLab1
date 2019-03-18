@@ -36,17 +36,19 @@
             // 
             this.labelAnswer.AutoSize = true;
             this.labelAnswer.Font = new System.Drawing.Font("Trebuchet MS", 20.25F);
-            this.labelAnswer.Location = new System.Drawing.Point(12, 9);
+            this.labelAnswer.Location = new System.Drawing.Point(18, 14);
+            this.labelAnswer.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelAnswer.Name = "labelAnswer";
-            this.labelAnswer.Size = new System.Drawing.Size(240, 35);
+            this.labelAnswer.Size = new System.Drawing.Size(361, 50);
             this.labelAnswer.TabIndex = 0;
             this.labelAnswer.Text = "Число не найдено";
             // 
             // buttonAnswer
             // 
-            this.buttonAnswer.Location = new System.Drawing.Point(86, 74);
+            this.buttonAnswer.Location = new System.Drawing.Point(129, 114);
+            this.buttonAnswer.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAnswer.Name = "buttonAnswer";
-            this.buttonAnswer.Size = new System.Drawing.Size(90, 30);
+            this.buttonAnswer.Size = new System.Drawing.Size(135, 46);
             this.buttonAnswer.TabIndex = 1;
             this.buttonAnswer.Text = "Принять";
             this.buttonAnswer.UseVisualStyleBackColor = true;
@@ -54,13 +56,14 @@
             // 
             // FormAnswer
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(264, 116);
+            this.ClientSize = new System.Drawing.Size(387, 151);
             this.Controls.Add(this.buttonAnswer);
             this.Controls.Add(this.labelAnswer);
-            this.MaximumSize = new System.Drawing.Size(280, 154);
-            this.MinimumSize = new System.Drawing.Size(280, 154);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MaximumSize = new System.Drawing.Size(409, 207);
+            this.MinimumSize = new System.Drawing.Size(409, 207);
             this.Name = "FormAnswer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Answer";

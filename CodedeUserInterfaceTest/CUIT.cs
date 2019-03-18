@@ -6,12 +6,15 @@ using AutoItX3Lib;
 namespace CodedeUserInterfaceTest
 {
     [TestClass]
-    public class UnitTest1
+    public class CUIT
     {
+        AutoItX3 au3 = new AutoItX3();
+
         [TestMethod]
-        public void TestMethod_WindowsFormsApp()
+        public void Testme()
         {
-            AutoItX3 au3 = new AutoItX3();
-        }
+
+        } // Конец Testme
+
     }
 }
