@@ -50,19 +50,47 @@ namespace CUIT
             /* Тест 1 */
             using(formMain fm = new formMain())
             {
+                fm.textBoxArg.Text = "aaaa";
+                fm.textBoxFail.Text = "TempFile.txt";
+                File.WriteAllText(fm.textBoxFail.Text, "102 101 100");
+                fm.checkBoxSortQSort.Checked = true;
+                fm.checkBoxSortShell.Checked = false;
 
+                fm.buttonExe_Click(fm.buttonExe, EventArgs.Empty);
+                fm.ShowDialog();
+
+                Assert.AreEqual("Внимание! Проверьте корректность заполнения полей.", fm.finale);
             }
 
             /* Тест 2 */
-            using(formMain fm = new formMain())
+            using (formMain fm = new formMain())
             {
+                fm.textBoxArg.Text = "100";
+                fm.textBoxFail.Text = "ToDelete.txt";
+                File.WriteAllText(fm.textBoxFail.Text, "102 101 100");
+                File.Delete(fm.textBoxFail.Text);
+                fm.checkBoxSortQSort.Checked = true;
+                fm.checkBoxSortShell.Checked = false;
 
+                fm.buttonExe_Click(fm.buttonExe, EventArgs.Empty);
+                fm.ShowDialog();
+
+                Assert.AreEqual("Внимание! Проверьте корректность заполнения полей.", fm.finale);
             }
 
             /* Тест 3 */
-            using(formMain fm = new formMain())
+            using (formMain fm = new formMain())
             {
+                fm.textBoxArg.Text = "100";
+                fm.textBoxFail.Text = "TempFile.txt";
+                File.WriteAllText(fm.textBoxFail.Text, "100 102 134 156 234 2367 999");
+                fm.checkBoxSortQSort.Checked = true;
+                fm.checkBoxSortShell.Checked = true;
 
+                fm.buttonExe_Click(fm.buttonExe, EventArgs.Empty);
+                fm.ShowDialog();
+
+                Assert.AreEqual("Внимание! Проверьте корректность заполнения полей.", fm.finale);
             }
 
         } // Конец TestMethod_formAlert()

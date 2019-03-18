@@ -101,13 +101,6 @@ namespace IntegrationTestProject1
 
             passed = formMain1.isInSeq(-100);
 
-            //if (au3.WinWaitActive("Atention", "", 1) == 1)
-            //{
-                //au3.ControlFocus("WindowsForms10.BUTTON.app.0.2df533a_r16_ad3", "", "");
-                //au3.WinKill("Atention", "");
-                //au3.ControlClick("Atention", "", "[NAME:button1]", "LEFT", 1, 45, 15);
-            //}
-
             Assert.AreEqual(false, passed);
 
             formMain1.Dispose();
