@@ -16,12 +16,10 @@ namespace WindowsFormsApp
         public formMain()
         {
             InitializeComponent();
-
         }
 
         private void Form1_Load(object sender, EventArgs e)
-        {
-
+        { 
         }
 
         // БЛОК ИНИЦИАЛИЗАЦИИ ПЕРЕМЕННЫХ
@@ -121,6 +119,7 @@ namespace WindowsFormsApp
         //
         public bool isInSeq(int x)
         {
+            /**/  bool ans = true;
             // Проверка на успешную конвертацию строк в числа
             try
             {
@@ -179,12 +178,15 @@ namespace WindowsFormsApp
             }
             catch
             {
+                ans = false;
                 FormAlert formAlert = new FormAlert();
-                formAlert.ShowDialog();
-
-                return false;
+                formAlert.Focus();
+                formAlert.Show();
+               
+                //return false;
             }
 
+            return ans;
         } // Конец isInSeq()
 
         //
@@ -197,15 +199,15 @@ namespace WindowsFormsApp
             {
                 FormAnswer formAnsewr = new FormAnswer();
                 formAnsewr.setLabelAnswer(isInSeq(pivot));
-                formAnsewr.ShowDialog();
+                formAnsewr.Show();
 
                 finale = formAnsewr.labelAnswer.Text;
             }
             else
             {
                 FormAlert formAlert = new FormAlert();
-                formAlert.ShowDialog();
-
+                formAlert.Show();
+                
                 finale = formAlert.label1.Text;
             }
         } // Конец buttonExe_Click()
